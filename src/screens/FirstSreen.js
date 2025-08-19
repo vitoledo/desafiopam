@@ -1,5 +1,11 @@
 import React from 'react';
-import { View, StyleSheet, Image, TouchableOpacity, Text, Pressable } from 'react-native';
+import {
+    View,
+    StyleSheet,
+    Image,
+    TouchableOpacity,
+    Text
+} from 'react-native';
 
 export default function FirstScreen({ navigation }) {
     return (
@@ -21,7 +27,7 @@ export default function FirstScreen({ navigation }) {
                 </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.buttonopc} onPress={() => navigation.navigate('First')}>
+            <TouchableOpacity style={styles.buttonopc} onPress={() => navigation.navigate('Login')}>
                 <Text style={styles.buttontxt2}>Outras opções</Text>
             </TouchableOpacity>
         </View>
